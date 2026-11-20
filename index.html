@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Vonky, Chingón y Ochismochis</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/ochis.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<header class="top">
+<div class="wrap">
+    <p class="kicker">Menú 2026</p>
+    <h1>Elige tu antojo</h1>
+    <p class="lead">Hamburguesas, tacos y pizzas. Toca una marca para ver su carta.</p>
+    <div class="tiles" id="tiles" role="tablist" aria-label="Marcas"></div>
+</div>
+</header>
+
+<div id="panel">
+<div class="panelhead wrap">
+    <h2 id="bname"></h2>
+    <p id="btag"></p>
+</div>
+<nav class="bar" id="barwrap" aria-label="Categorías">
+    <div class="wrap" id="chips"></div>
+</nav>
+<main>
+    <div class="wrap">
+    <div class="search">
+        <label class="sr" for="q">Buscar en la carta</label>
+        <input id="q" type="search" placeholder="Buscar un plato o ingrediente" autocomplete="off">
+    </div>
+    <div id="menu"></div>
+    </div>
+</main>
+</div>
+
+<footer>
+<div class="wrap">Precios en bolivianos (Bs).</div>
+</footer>
+<script src="js/ochis.js" type="module"></script>
+
+</body>
+</html>
